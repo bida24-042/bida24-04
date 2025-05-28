@@ -1,1 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makgadikgadi Riverview Guest House - Home</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">s
+</head>
+<body>
+    <header class="header">
+    <div class="header-top">
+        <div class="site-title">
+            <h1>Makgadikgadi Riverview Guest House</h1>
+            <h2>Where Nature Whispers and History Speaks</h2>
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <nav class="navbar" id="navbar">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About Us</a>
+            <a href="activities.html" class="nav-link">Activities</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="feedback.html" class="nav-link">Feedback</a>
+            <a href="dining.html" class="nav-link">Dining</a>
+        </nav>
+    </div>
+</header>
 
+<main class="content-wrapper">
+        <section class="dining-hero">
+            <h2 class="section-title">Dining at Makgadikgadi Riverview</h2>
+            <div class="image-container">
+                <img src="guesthouse dining.webp" alt="Riverside dining setup" class="responsive-image">
+            </div>
+        </section>
+
+        <section class="dining-experience">
+            <article class="dining-card">
+                <div class="dining-intro">
+                    <h3>Simple, Fresh & Full of Local Flavor</h3>
+                    <p>At Makgadikgadi Riverview Guest House, dining is more than just a meal - it's part of the experience. Whether you're starting your day with a hearty breakfast or ending it with a riverside dinner, we offer meals that are fresh, nourishing, and inspired by local flavors.</p>
+                </div>
+
+                <div class="meal-time">
+                    <div class="meal-card">
+                        <div class="image-container">
+                            <img src="breakfast.jpeg" alt="Breakfast spread" class="meal-image">
+                        </div>
+                        <h4>Breakfast</h4>
+                        <p class="meal-hours">06:30 - 10:00</p>
+                        <p class="meal-description">Start your day with our complimentary breakfast served daily in our open-air dining veranda or delivered to your private patio upon request.</p>
+                        <ul class="meal-features">
+                            <li>Freshly baked pastries</li>
+                            <li>Seasonal fruits</li>
+                            <li>Traditional porridge options</li>
+                        </ul>
+                    </div>
+
+                    <div class="meal-card">
+                        <div class="image-container">
+                            <img src="lunch.jpg" alt="Lunch presentation" class="meal-image">
+                        </div>
+                        <h4>Lunch</h4>
+                        <p class="meal-hours">12:30 - 14:00</p>
+                        <p class="meal-description">Light and fresh options perfect for relaxing between activities:</p>
+                        <ul class="meal-features">
+                            <li>Rotating daily menu</li>
+                            <li>Vegetarian & vegan options</li>
+                            <li>Riverside picnic baskets available</li>
+                        </ul>
+                    </div>
+
+                    <div class="meal-card">
+                        <div class="image-container">
+                            <img src="diner.jpeg" alt="Evening dinner setting" class="meal-image">
+                        </div>
+                        <h4>Dinner Experience</h4>
+                        <p class="meal-hours">18:30 - 22:00</p>
+                        <p class="meal-description">Three-course meals blending local cuisine with international favorites:</p>
+                        <ul class="meal-features">
+                            <li>Candlelit garden or riverside seating</li>
+                            <li>Seasonal ingredients</li>
+                            <li>Traditional braai (barbecue) nights</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+     <footer>
+        <p>&copy; 2025 Makgadikgadi Riverview Guest House</p>
+        <p>Contact: +267 123 4567 | info@makgadikgadiriverview.com</p>
+    </footer>
+    
+
+     <!-----------script---------->
+    <script>
+function toggleMenu() {
+    var nav = document.getElementById("navbar");
+    nav.classList.toggle("active");
+}
+</script>
+</body>
+</html>
