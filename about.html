@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makgadikgadi Riverview Guest House - Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+ </head>
 
+<body>
+    <header class="header">
+    <div class="header-top">
+        <div class="site-title">
+            <h1>Makgadikgadi Riverview Guest House</h1>
+            <h2>Where Nature Whispers and History Speaks</h2>
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <nav class="navbar" id="navbar">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About Us</a>
+            <a href="activities.html" class="nav-link">Activities</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="feedback.html" class="nav-link">Feedback</a>
+            <a href="dining.html" class="nav-link">Dining</a>
+        </nav>
+    </div>
+</header>
+   <main class="content-wrapper">
+        <section class="hero-section">
+            <h2 class="section-title">Welcome to Makgadikgadi Riverview Guest House</h2>
+            <p class="lead-text">Nestled along the peaceful banks of the Chobe River in Kasane, Botswana, our guest house offers a unique landscape where the beauty of nature meets the timeless spirit of rock art. Located near the world-famous Chobe National Park, our guest house is the perfect base for wildlife adventures, river cruises, or simply soaking in the tranquil rhythm of the river.</p>
+            <div class="image-container">
+                <img src="Welcome image.jpg" alt="Guest house exterior view" class="responsive-image">
+            </div>
+        </section>
+
+        <section class="location-section">
+            <h2 class="section-title">Our Location - A Riverside Haven in Chobe</h2>
+            <p class="description-text">Surrounded by lush greenery and just a few minutes from Chobe's iconic wildlife, our setting is both serene and full of life. Wake up to the call of birds and watch elephants along the river banks. Whether you're a nature lover, cultural explorer, or simply in search of peace, Kasane offers it all - and Makgadikgadi Riverview Guest House places you right at its heart.</p>
+        </section>
+
+        <section class="rooms-section">
+            <h2 class="section-title">Our Rooms - Comfort with Character</h2>
+            <p class="description-text">Each of our rooms is thoughtfully designed with natural tones, handmade decor, and artistic touches inspired by ancient rock art. Whether you're traveling solo or with loved ones, we have the perfect space for you:</p>
+
+            <div class="room-grid">
+                <article class="room-card">
+                    <div class="image-container">
+                        <img src="single-room-1.jpg" alt="Single room interior" class="room-image">
+                    </div>
+                    <h3 class="room-title">Single Room</h3>
+                    <p class="price">P900.00 per night</p>
+                    <p class="room-description">Cozy and peaceful, ideal for solo travelers or business guests</p>
+                </article>
+
+                <article class="room-card">
+                    <div class="image-container">
+                        <img src="double.webp" alt="Double room interior" class="room-image">
+                    </div>
+                    <h3 class="room-title">Double Room</h3>
+                    <p class="price">P1200.00 per night</p>
+                    <p class="room-description">Comfortable and inviting, perfect for couples or friends</p>
+                </article>
+
+                <article class="room-card">
+                    <div class="image-container">
+                        <img src="family room.jpg" alt="Family room interior" class="room-image">
+                    </div>
+                    <h3 class="room-title">Family Room</h3>
+                    <p class="price">P1500.00 per night</p>
+                    <p class="room-description">Spacious accommodation for families or small groups, with room to unwind</p>
+                </article>
+
+                <article class="room-card">
+                    <div class="image-container">
+                        <img src="Delux room.jpeg" alt="Deluxe room interior" class="room-image">
+                    </div>
+                    <h3 class="room-title">Deluxe Room</h3>
+                    <p class="price">P2000.00 per night</p>
+                    <p class="room-description">Our premium offering with added space, luxury finishes, river views, and a touch of indulgence</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <h2 class="section-title">Why Choose Makgadikgadi Riverview?</h2>
+            <ul class="features-list">
+                <li class="feature-item">Peaceful, art-inspired setting surrounded by nature</li>
+                <li class="feature-item">Easy access to game drives, boat safaris, and local attractions</li>
+                <li class="feature-item">Eco-friendly hospitality practices</li>
+                <li class="feature-item">Prime location in Kasane, just steps from the Chobe River</li>
+            </ul>
+        </section>
+    </main>
+     <footer>
+        <p>&copy; 2025 Makgadikgadi Riverview Guest House</p>
+        <p>Contact: +267 123 4567 | info@makgadikgadiriverview.com</p>
+    </footer>
+    
+
+     <!-----------script---------->
+    <script>
+function toggleMenu() {
+    var nav = document.getElementById("navbar");
+    nav.classList.toggle("active");
+}
+</script>
+</body>
+</html>
