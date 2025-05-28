@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makgadikgadi Riverview Guest House - Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <header class="header">
+    <div class="header-top">
+        <div class="site-title">
+            <h1>Makgadikgadi Riverview Guest House</h1>
+            <h2>Where Nature Whispers and History Speaks</h2>
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <nav class="navbar" id="navbar">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About Us</a>
+            <a href="activities.html" class="nav-link">Activities</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="feedback.html" class="nav-link">Feedback</a>
+            <a href="dining.html" class="nav-link">Dining</a>
+        </nav>
+    </div>
+</header>
 
+    
+
+    <main class="main-container">
+        <section class="hero-section">
+            <div class="hero-content">
+              <p class="hero-text">At Makgadikgadi Riverview Guest House, you don't just stay — you reconnect. Our sanctuary invites you to slow down and breathe deeply. Whether you're here to reflect, explore, or rest, discover true connection with nature's tranquility.</p>
+            </div>
+            <div class="hero-image">
+                <img src="nature's embrace.jpeg" alt="Serene natural landscape" class="responsive-image">
+            </div>
+        </section>
+
+        <section class="features-section">
+            <article class="feature-card">
+                <div class="feature-image">
+                    <img src="cozy.jpg.jpeg" alt="Luxurious room interior" class="responsive-image">
+                </div>
+                <div class="feature-content">
+                    <h4 class="feature-title">Cozy Accommodations</h4>
+                    <p class="feature-text">Transform your space into a sanctuary where ancient wonder meets modern comfort.</p>
+                    <p class="feature-text">Immerse yourself in our rock art-themed rooms, carefully curated to blend cultural heritage with contemporary serenity.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Makgadikgadi Riverview Guest House</p>
+        <p>Contact: +267 123 4567 | info@makgadikgadiriverview.com</p>
+    </footer>
+    
+   <!--------------script--------->
+    <script>
+function toggleMenu() {
+    var nav = document.getElementById("navbar");
+    nav.classList.toggle("active");
+}
+</script>
+</body>
+</html>
